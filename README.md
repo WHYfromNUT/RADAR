@@ -1,41 +1,69 @@
-# BGNet: Boundary-Guided Camouflaged Object Detection (IJCAI 2022)
+# High-Resolution Underwater Creature Segmentation 
 
 
 > **Authors:** 
-> Yujia Sun,
-> Shuo Wang,
-> Chenglizhao Chen,
-> and Tian-Zhu Xiang.
+> Huiyang Wu,
+> Qiuping Jiang,
+> Zongwei Wu,
+> Runmin Cong,
+> Cedric Demonceaux,
+> Yi Yang
+> and Xiangyang Ji.
 
 ## 1. Preface
 
-- This repository provides code for "_**Boundary-Guided Camouflaged Object Detection**_" IJCAI-2022. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2207.00794-red?style=flat-square)](https://arxiv.org/abs/2207.00794)
+- This repository provides code for "_**High-Resolution Underwater Creature Segmentation**_" TIP-2025. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2207.00794-red?style=flat-square)](https://arxiv.org/abs/2207.00794)
+- Created by Huiyang Wu, email: 2311100185@nbu.edu.cn
+## 2. High-Resolution Underwater Creature Segmentation Dataset UCS4K
+Baidu Netdisk: [UCS4K](https://pan.baidu.com/s/10p8Z_4-oK38Q76yjwpnalw?pwd=1390) **fetch code**: [1390]  &&&
+Google drive: [UCS4K](https://drive.google.com/file/d/1PH0PwKchXnkWwtAwbhNSW4utMCp5zer8/view?usp=sharing) is the first large-scale dataset for High-Resolution Underwater Creature Segmentation (UCS). 
+It is free for academic research, not for any commercial purposes.
 
-## 2. Proposed Baseline
+## 3.Directory
+The directory should be like this:
 
-### 2.1. Training/Testing
+````
+-- model (saved model)
+-- pre (pretrained model)
+-- result (saliency maps)
+-- data (train dataset and test dataset)
+   |-- trian
+   |   |-- Imgs
+   |   |-- GT
+   |   |-- Edge_gt
+   |-- val
+   |   |-- Imgs
+   |   |-- GT
+   |   |-- Edge_gt
+   |-- test
+   |   |-- Imgs
+   |   |-- GT
+   |   |-- Edge_gt
+   ...
+   
+````
+## 4. Proposed Baseline
+
+### 4.1. Training/Testing
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
-a single NVIDIA Tesla P40 GPU of 24 GB Memory.
+a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Configuring your environment (Prerequisites):
     
-    + Creating a virtual environment in terminal: `conda create -n BGNet python=3.6`.
+    + Creating a virtual environment in terminal: `conda create -n RADAR python=3.8`.
     
     + Installing necessary packages: `pip install -r requirements.txt`.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1SLRB5Wg1Hdy7CQ74s3mTQ3ChhjFRSFdZ/view?usp=sharing).
+    + downloading testing dataset and move it into `./data/TestDataset/`
     
-    + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1Kifp7I0n9dlWKXXNIbN7kgyokoRY4Yz7/view?usp=sharing).
+    + downloading training dataset and move it into `./data/TrainDataset/`,
     
-    + downloading pretrained weights and move it into `./checkpoints/best/BGNet.pth`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1RQFRgQNtXYfKW4bm5veU4_4ikgPiuEwl/view?usp=sharing).
-    
-    + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
+    + downloading [pretrained weights ](https://download.pytorch.org/models/resnet18-5c106cde.pth) and move it into `./checkpoints/best/RADAR.pth`, 
+   
+    + downloading [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in pre folder.
    
 1. Training Configuration:
 
