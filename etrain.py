@@ -101,9 +101,9 @@ def train(train_loader, test_loader,model, optimizer, epoch,writer):
             if (tmp_out):
                 last_f1 = tmp_f1
                 print('last_f1',last_f1)
-                torch.save(model.state_dict(), save_path + 'BGNet-%d.pth' % epoch)
-                print('[Saving Snapshot:]', save_path + 'BGNet-%d.pth' % epoch)
-                file.write('[Saving Snapshot:]' + save_path + 'BGNet-%d.pth' % epoch + '\n')
+                torch.save(model.state_dict(), save_path + 'RADAR-%d.pth' % epoch)
+                print('[Saving Snapshot:]', save_path + 'RADAR-%d.pth' % epoch)
+                file.write('[Saving Snapshot:]' + save_path + 'RADAR-%d.pth' % epoch + '\n')
 
 
 def val(test_loader, model, epoch, writer):
