@@ -57,9 +57,9 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset and move it into `./data/TestDataset/`
+    + downloading testing dataset and move it into `./data/train/`
     
-    + downloading training dataset and move it into `./data/TrainDataset/`,
+    + downloading training dataset and move it into `./data/train/`,
     
     + downloading [pretrained weights ](https://download.pytorch.org/models/resnet18-5c106cde.pth) and move it into `./checkpoints/best/RADAR.pth`, 
    
