@@ -27,24 +27,35 @@ The directory should be like this:
 -- pre (pretrained model)
 -- result (saliency maps)
 -- data (train dataset and test dataset)
-   |-- trian
-   |   |-- Imgs
-   |   |-- GT
-   |   |-- Edge_gt
-   |-- val
-   |   |-- Imgs
-   |   |-- GT
-   |   |-- Edge_gt
-   |-- test
-   |   |-- Imgs
-   |   |-- GT
-   |   |-- Edge_gt
+   -- UCS4K
+      |-- trian
+      |   |-- Imgs
+      |   |-- GT
+      |   |-- Edge_gt
+      |-- val
+      |   |-- Imgs
+      |   |-- GT
+      |   |-- Edge_gt
+      |-- test
+      |   |-- Imgs
+      |   |-- GT
+      |   |-- Edge_gt
    ...
    
 ````
 ## 4. Proposed Baseline
 
 ### 4.1. Training/Testing
+
+### Requirements
+* Python 3.8
+* Pytorch 1.7.1
+* OpenCV
+* Numpy
+* Apex
+* Timm
+* tqdm
+
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
 a single NVIDIA TIAN GPU of 24 GB Memory.
@@ -57,7 +68,7 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset and move it into `./data/train/`
+    + downloading testing dataset and move it into `./data/test/`
     
     + downloading training dataset and move it into `./data/train/`,
     
@@ -74,7 +85,7 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
     + After you download all the pre-trained model and testing dataset, just run `etest.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`).
 
-### 2.2 Evaluating your trained model:
+### 4.2 Evaluating your trained model:
 
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
@@ -85,11 +96,17 @@ Assigning your costumed path, like `method`, `mask_root` and `pred_root` in `eva
 
 Just run `eval.py` to evaluate the trained model.
 
-> pre-computed maps of BGNet can be found in [download link (Google Drive)](https://drive.google.com/file/d/1vhrAGJI81YAK9YSYgPJer0kxzNEfnRT2/view?usp=share_link).
+> pre-computed maps of RADAR can be found in [download link (Google Drive)](https://drive.google.com/file/d/1vhrAGJI81YAK9YSYgPJer0kxzNEfnRT2/view?usp=share_link).
 
 > pre-computed maps of other comparison methods can be found in [download link (Baidu Pan)](https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ) with Code: yxy9.
 
-## 3. Citation
+## 5. Other dataset
+> (1)[USOD10K]( https://github.com/LinHong-HIT/USOD10K)
+> (2)[MAS3K](https://github.com/LinLi-DL/MAS)
+> (3)[RMAS](https://github.com/zhenqifu/MASNet)
+> (4)[SUIM](https://github.com/xahidbuffon/SUIM-Net)
+> (5)[NAUTEC](http://creativecommons.org/licenses/by/4.0/)
+## 6. Citation
 
 Please cite our paper if you find the work useful: 
 
