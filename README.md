@@ -115,5 +115,5 @@ Please cite our paper if you find the work useful:
      journal={IEEE Transactions on Image Processing},
      volume={34},
      pages={7759--7772},
-     year={2025},
+     year={2025}
    }
