@@ -109,10 +109,12 @@ Just run `eval.py` to evaluate the trained model.
 
 Please cite our paper if you find the work useful: 
 
-	@inproceedings{sun2022bgnet,
-	title={Boundary-Guided Camouflaged Object Detection},
-	author={Sun, Yujia and Wang, Shuo and Chen, Chenglizhao and Xiang, Tian-Zhu},
-	booktitle={IJCAI},
-	pages = "1335--1341",
-	year={2022}
-	}
+@article{wu2025high,
+  title={High-Resolution Underwater Creature Segmentation},
+  author={Wu, Huiyang and Jiang, Qiuping and Wu, Zongwei and Cong, Runmin and Demonceaux, C{\'e}dric and Yang, Yi and Ji, Xiangyang},
+  journal={IEEE Transactions on Image Processing},
+  volume={34},
+  pages={7759--7772},
+  year={2025},
+  publisher={IEEE}
+}
