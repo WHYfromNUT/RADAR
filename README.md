@@ -116,5 +116,4 @@ Please cite our paper if you find the work useful:
      volume={34},
      pages={7759--7772},
      year={2025},
-     publisher={IEEE}
    }
