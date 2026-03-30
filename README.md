@@ -12,7 +12,7 @@
 
 ## 1. Preface
 
-- This repository provides code for "_**High-Resolution Underwater Creature Segmentation**_" TIP-2025. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2207.00794-red?style=flat-square)](https://arxiv.org/abs/2207.00794)
+- This repository provides code for "_**High-Resolution Underwater Creature Segmentation**_" TIP-2025. [RADAR](https://ieeexplore.ieee.org/abstract/document/11267001)
 - Created by Huiyang Wu, email: 2311100185@nbu.edu.cn
 ## 2. High-Resolution Underwater Creature Segmentation Dataset UCS4K
 Baidu Netdisk: [UCS4K](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ) **fetch code**: [1390] is the first large-scale dataset for High-Resolution Underwater Creature Segmentation (UCS). 
