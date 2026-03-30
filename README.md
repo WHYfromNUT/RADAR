@@ -108,7 +108,7 @@ Just run `eval.py` to evaluate the trained model.
 ## 6. Citation
 
 Please cite our paper if you find the work useful: 
-
+```
    @article{wu2025high,
      title={High-Resolution Underwater Creature Segmentation},
      author={Wu, Huiyang and Jiang, Qiuping and Wu, Zongwei and Cong, Runmin and Demonceaux, C{\'e}dric and Yang, Yi and Ji, Xiangyang},
@@ -117,3 +117,4 @@ Please cite our paper if you find the work useful:
      pages={7759--7772},
      year={2025}
    }
+```
