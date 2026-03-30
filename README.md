@@ -68,11 +68,11 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset and move it into `./data/test/`
+    + downloading testing dataset [UCS4K](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ)  with Code: 1390, and move it into `./data/test/`
     
-    + downloading training dataset and move it into `./data/train/`,
+    + downloading training dataset [UCS4K](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ)  with Code: 1390, and move it into `./data/train/`,
     
-    + downloading [pretrained weights ](https://download.pytorch.org/models/resnet18-5c106cde.pth) and move it into `./checkpoints/best/RADAR.pth`, 
+    + downloading and move it into `./checkpoints/best/RADAR.pth`, 
    
     + downloading [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in pre folder.
    
