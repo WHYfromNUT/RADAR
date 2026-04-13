@@ -16,7 +16,7 @@
 - Created by Huiyang Wu, email: 2311100185@nbu.edu.cn
 ## 2. High-Resolution Underwater Creature Segmentation Dataset UCS4K
 Baidu Netdisk: UCS4K is the first large-scale dataset for High-Resolution Underwater Creature Segmentation (UCS). 
-It is free for academic research, not for any commercial purposes. You can download UCS4K from [BaiDu](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ) **fetch code**: [1390] or [Google Drive](https://drive.google.com/file/d/1CeuYqjjJtyPqAWDD4Xow-5n5WfsjdlPO/view?usp=sharing)
+It is free for academic research, not for any commercial purposes. You can download UCS4K from [Baidu Pan](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ) **fetch code**: [1390] or [Google Drive](https://drive.google.com/file/d/1CeuYqjjJtyPqAWDD4Xow-5n5WfsjdlPO/view?usp=sharing)
 
 ## 3.Directory
 The directory should be like this:
@@ -95,9 +95,9 @@ Assigning your costumed path, like `method`, `mask_root` and `pred_root` in `eva
 
 Just run `eval.py` to evaluate the trained model.
 
-> pre-computed maps of RADAR can be found in [download link (Google Drive)](https://drive.google.com/file/d/1vhrAGJI81YAK9YSYgPJer0kxzNEfnRT2/view?usp=share_link).
+> pre-trained weights of RADAR can be found in [download link (Google Drive)]([https://drive.google.com/file/d/1vhrAGJI81YAK9YSYgPJer0kxzNEfnRT2/view?usp=share_link](https://drive.google.com/file/d/1R9qoGFa5emCQpbShsgZAXFm06zxTnsi5/view?usp=sharing)) OR the optimized model weights [download link (Google Drive)](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing)
 
-> pre-computed maps of other comparison methods can be found in [download link (Baidu Pan)](https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ) with Code: yxy9.
+> pre-computed maps can be found in [download link (Google Drive)]([https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing)) .
 
 ## 5. Other dataset
 > (1)[USOD10K]( https://github.com/LinHong-HIT/USOD10K)
