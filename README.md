@@ -95,9 +95,9 @@ Assigning your costumed path, like `method`, `mask_root` and `pred_root` in `eva
 
 Just run `eval.py` to evaluate the trained model.
 
-> pre-trained weights of RADAR can be found in [download link (Google Drive)]([https://drive.google.com/file/d/1vhrAGJI81YAK9YSYgPJer0kxzNEfnRT2/view?usp=share_link](https://drive.google.com/file/d/1R9qoGFa5emCQpbShsgZAXFm06zxTnsi5/view?usp=sharing)) OR the optimized model weights [download link (Google Drive)](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing)
+> pre-trained weights of RADAR can be found in [download link (Google Drive)](https://drive.google.com/file/d/1R9qoGFa5emCQpbShsgZAXFm06zxTnsi5/view?usp=sharing) OR the optimized model weights [download link (Google Drive)](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing)
 
-> pre-computed maps can be found in [download link (Google Drive)]([https://pan.baidu.com/s/1dLMqa4tix1gdBN1uWrCPbQ](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing)) .
+> pre-computed maps can be found in [download link (Google Drive)](https://drive.google.com/file/d/17zBiEOPb0E0sO6CPXpRpimkZwPOTP_SC/view?usp=sharing) .
 
 ## 5. Other dataset
 > (1)[USOD10K]( https://github.com/LinHong-HIT/USOD10K)
