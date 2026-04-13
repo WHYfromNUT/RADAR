@@ -16,7 +16,7 @@
 - Created by Huiyang Wu, email: 2311100185@nbu.edu.cn
 ## 2. High-Resolution Underwater Creature Segmentation Dataset UCS4K
 Baidu Netdisk: UCS4K is the first large-scale dataset for High-Resolution Underwater Creature Segmentation (UCS). 
-It is free for academic research, not for any commercial purposes. You can download UCS4K from [Baidu Pan](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ) **fetch code**: [1390] or [Google Drive](https://drive.google.com/file/d/1CeuYqjjJtyPqAWDD4Xow-5n5WfsjdlPO/view?usp=sharing)
+It is free for academic research, not for any commercial purposes. You can download UCS4K from [Baidu Pan](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390) **fetch code**: [1390] or [Google Drive](https://drive.google.com/file/d/1CeuYqjjJtyPqAWDD4Xow-5n5WfsjdlPO/view?usp=sharing)
 
 ## 3.Directory
 The directory should be like this:
@@ -67,9 +67,9 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset [UCS4K](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ)  with Code: 1390, and move it into `./data/test/`
+    + downloading testing dataset [UCS4K]([https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390))  with Code: 1390, and move it into `./data/test/`
     
-    + downloading training dataset [UCS4K](https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ)  with Code: 1390, and move it into `./data/train/`,
+    + downloading training dataset [UCS4K]([https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390))  with Code: 1390, and move it into `./data/train/`,
     
     + downloading and move it into `./checkpoints/best/RADAR.pth`, 
    
