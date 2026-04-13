@@ -71,7 +71,7 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
     
     + downloading training dataset [UCS4K](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390)  with Code: 1390, and move it into `./data/train/`,
     
-    + downloading and move it into `./checkpoints/best/RADAR.pth`, 
+    + pre-trained weights of RADAR can be found in [download link (Google Drive)](https://drive.google.com/file/d/1R9qoGFa5emCQpbShsgZAXFm06zxTnsi5/view?usp=sharing) OR the optimized model weights [download link (Google Drive)](https://drive.google.com/file/d/16X3IhLTVfFKcPvrmTJQ7vCy8bFEtMy9V/view?usp=sharing) and move it into `./checkpoints/best/RADAR.pth`, 
    
     + downloading [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in pre folder.
    
