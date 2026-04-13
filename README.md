@@ -67,9 +67,9 @@ a single NVIDIA TIAN GPU of 24 GB Memory.
 
 1. Downloading necessary data:
 
-    + downloading testing dataset [UCS4K]([https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390))  with Code: 1390, and move it into `./data/test/`
+    + downloading testing dataset [UCS4K](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390)  with Code: 1390, and move it into `./data/test/`
     
-    + downloading training dataset [UCS4K]([https://pan.baidu.com/s/1nEzfSwfLuJDoB7ld_fzArQ](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390))  with Code: 1390, and move it into `./data/train/`,
+    + downloading training dataset [UCS4K](https://pan.baidu.com/s/1TA0r0ZwNEmt_FUdsVvme-Q?pwd=1390)  with Code: 1390, and move it into `./data/train/`,
     
     + downloading and move it into `./checkpoints/best/RADAR.pth`, 
    
